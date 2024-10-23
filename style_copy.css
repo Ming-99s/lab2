@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    overflow: hidden;
+}
+#first{
+    nav{
+        list-style: none;
+        font-size: 1.5rem;
+        /* line-height: 5rem; */
+        text-align: left;
+
+    }   
+    background-color: black;
+    color:white;
+    width: 40%;
+    padding: 50px;
+    /* text-align: center; */
+    height: 100vh;
+    .fa-bars{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    nav{
+        a{
+            cursor: pointer;
+            display: block;
+            padding-bottom:2rem;
+            text-decoration: none;
+            color:white;
+            transition: 0.3s;
+        }
+    }
+    a:hover{font-weight: bold;}
+
+    
+
+}
+
+#second{
+    text-decoration: none;
+    transition: 0.5s;
+    background-color: rgb(61, 66, 66);
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    h2{
+    font-size: 2rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    div{
+        text-align: center;
+    }
+
+}
+#third{
+    height: 100vh;
+    
+    div{
+        text-align: center;
+        }
+        h2{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+    #box1{
+        text-decoration: none;
+        padding: 30px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        transition: 0.5s;
+        background-color: white;
+        color:rgb(0, 0, 0);
+        /* z-index: -2; */
+    }
+    #box2{
+        text-decoration: none;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        color:white;
+        height: 100%;
+        background-color: rgb(47, 45, 45);
+        /* z-index: -100; */
+        transition: 0.5s;
+    }
+    #box1-2{
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #outsider{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        height: 58vh;
+        padding: 100px;
+        display: flex;
+        transition: 0.5s;
+        h2{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        div{
+            text-align: center;
+        }
+
+    }
+#second:hover{
+    padding: 60px;
+    background-color: rgb(126, 126, 126);
+}
+#box1:hover{
+    background-color: rgb(230, 230, 230);
+    padding: 50px;
+}
+#box2:hover{
+    background-color: rgb(40, 39, 39);
+    padding: 50px;
+
+}
+#outsider:hover{
+    padding: 120px;
+    background-color: rgb(55, 56, 56);
+    /* z-index: 1; */
+}
